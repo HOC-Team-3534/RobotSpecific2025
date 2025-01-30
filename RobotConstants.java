@@ -7,6 +7,10 @@ import com.ctre.phoenix6.configs.Slot0Configs;
 import edu.wpi.first.units.measure.Angle;
 
 public class RobotConstants {
+    public class Options {
+        public static final boolean CENTER_CAMERA = false;
+    }
+
     public class EnabledSubsystems {
         public static final boolean ELEVATOR_ENABLED = false;
         public static final boolean JAWS_ENABLED = false;
