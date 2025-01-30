@@ -7,6 +7,12 @@ import com.ctre.phoenix6.configs.Slot0Configs;
 import edu.wpi.first.units.measure.Angle;
 
 public class RobotConstants {
+    public class EnabledSubsystems {
+        public static final boolean ELEVATOR_ENABLED = false;
+        public static final boolean JAWS_ENABLED = false;
+        public static final boolean TUSKS_ENABLED = false;
+    }
+
     public class DriveConstants {
         public static final Slot0Configs DRIVE_GAINS = new Slot0Configs()
                 .withKP(0.1).withKI(0).withKD(0)
