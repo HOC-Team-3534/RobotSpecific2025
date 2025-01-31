@@ -12,7 +12,7 @@ public class RobotConstants {
     }
 
     public class EnabledSubsystems {
-        public static final boolean ELEVATOR_ENABLED = false;
+        public static final boolean ELEVATOR_ENABLED = true;
         public static final boolean JAWS_ENABLED = false;
         public static final boolean TUSKS_ENABLED = false;
     }
